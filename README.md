@@ -4,11 +4,11 @@ Plataforma web de apresentação profissional e curadoria técnica, criada para 
 
 A interface não tem conteúdo fixo no código: ela é gerada a partir de um banco de dados em nuvem. Novos membros, habilidades e projetos entram direto na base, sem alterar o visual do site.
 
-**Site no ar:** [cole aqui o link do GitHub Pages, quando publicar]
+**Site no ar:** (https://jj-portfolio-theta.vercel.app/)
 
 ## Integrantes
-- [Nome do Integrante 1]
-- [Nome do Integrante 2]
+- Jonas Barchuk
+- João Felipe Melo de Araújo Neves
 
 ## Tecnologias
 - HTML, CSS e JavaScript puro
@@ -36,14 +36,6 @@ jj-portfolio/
 **itens_curadoria**: `id`, `integrante_id` (liga ao integrante), `tipo` (`habilidade` ou `projeto`), `titulo`, `descricao`, `link_url`, `criado_em`
 
 A segurança é feita com RLS (Row Level Security): a chave pública usada no site só consegue **ler** os dados.
-
-## Como rodar localmente
-1. Clone o repositório.
-2. Abra a pasta no VS Code.
-3. Clique com o botão direito em `index.html` → **Open with Live Server**.
-
-## Como adicionar conteúdo (sem mexer no código)
-No painel do Supabase, abra o **Table Editor** e insira linhas em `integrantes` ou `itens_curadoria`. Ao recarregar a página, o conteúdo novo aparece.
 
 ## Versão atual: MVP (v0.1)
 - Cartões de perfil por integrante
