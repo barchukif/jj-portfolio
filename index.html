@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J&amp;J Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <h1 class="marca">J&amp;J <span>Portfolio</span></h1>
+    <p class="proposta">
+      Curadoria técnica das competências, trajetórias e diferenciais do nosso grupo.
+    </p>
+  </header>
+
+  <main>
+    <section id="integrantes" class="grid" aria-live="polite">
+      <p class="status">Carregando integrantes...</p>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>J&amp;J Portfolio · MVP</p>
+  </footer>
+
+  <!-- Biblioteca do Supabase via CDN (vem ANTES do app.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="app.js"></script>
+</body>
+</html>
